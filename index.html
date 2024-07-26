@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <title>Cronômetro</title>
+</head>
+
+<body>
+
+    <div class="box-cron">
+        <h1> Cr<img src="./cron.png">nômetro JS </h1>
+        
+        <div class="box-time">
+        
+            <span class="span" id="time"> 00:00:00 </span>
+        </div>
+
+        <div class="box-button">
+            <button id="button-start" onclick="start()"> Start </button>
+            <button id="button-stop" onclick="stopp()"> Stop </button>
+            <button id="button-reset" onclick="reset()"> Reset </button>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
